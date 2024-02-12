@@ -7,6 +7,6 @@
   "transform": {
     "^.+\\.(ts|tsx)$": "ts-jest"
   },
-  "testRegex": "src/tests/.ts$",
+  "testRegex": ".*\\.test\\.ts$",
   "verbose": true
 }
