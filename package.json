@@ -4,7 +4,7 @@
   "description": "CRUD API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon --config nodemon.json src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/Tsyman/crud-api/issues"
   },
-  "homepage": "https://github.com/Tsyman/crud-api#readme"
+  "homepage": "https://github.com/Tsyman/crud-api#readme",
+  "dependencies": {
+    "@types/node": "^22.7.7",
+    "@types/uuid": "^10.0.0",
+    "nodemon": "^3.1.7",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "moduleFileExtensions": [
+    "js",
+    "json",
+    "ts"
+  ],
+  "transform": {
+    "^.+\\.(ts|tsx)$": "ts-jest"
+  },
+  "testRegex": ".*\\.test\\.ts$",
+  "verbose": true
+}
