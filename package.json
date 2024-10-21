@@ -4,7 +4,11 @@
   "description": "CRUD API",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --config nodemon.json src/index.ts"
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "build": "webpack --mode production",
+    "prod": "npm run build && nodemon dist/server.js",
+    "start:multi": "nodemon src/cluster.ts",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
